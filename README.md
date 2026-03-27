@@ -24,7 +24,6 @@ StorySurface pushes against that bias with:
 - **A product-story design system** centered on calmer, more product-led landing pages
 - **11 modular skills** for directing, building, refining, and reviewing pages
 - **Curated design references** for hierarchy, archetypes, modules, copy, and motion
-- **Practical examples** that show the system working across different product categories
 - **Explicit anti-patterns** that tell the AI what not to do
 
 ## What's Included
@@ -58,15 +57,6 @@ A central design skill supported by focused references:
 | [product-story-arrange](product-story-arrange/SKILL.md) | Fix layout, spacing, sequence, and visual rhythm |
 | [product-story-polish](product-story-polish/SKILL.md) | Run a final refinement pass before shipping |
 | [product-story-audit](product-story-audit/SKILL.md) | Review the page for design quality, consistency, and regressions |
-
-### Examples
-
-| Example | Category | What it validates |
-|---------|----------|-------------------|
-| [lumen-buds-pro-product-story.md](examples/lumen-buds-pro-product-story.md) | Audio | Sensory-experience product narrative |
-| [lumen-buds-pro-demo.html](examples/lumen-buds-pro-demo.html) | Audio | A complete premium product showcase page |
-| [northlight-air-product-story.md](examples/northlight-air-product-story.md) | Computing | Everyday-computing narrative structure |
-| [northlight-air-demo.html](examples/northlight-air-demo.html) | Computing | A second category implementation test |
 
 ## Anti-Patterns
 
