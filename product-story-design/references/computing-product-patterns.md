@@ -35,6 +35,13 @@ Workflow proof shows:
 
 The strongest pages do not mix these randomly. They pace them.
 
+They also tend to use two layout modes together:
+
+- full-width narrative stages for object beauty, design, display, or lifestyle proof
+- selective local cards for highlights, utility proof, or comparison
+
+This means the default computing-page skeleton should not be "one rounded card after another."
+
 ## Family Types
 
 ### Lightweight Everyday Laptop
@@ -54,6 +61,15 @@ Use when:
 - the product must feel easy to carry
 - the buyer values flexibility more than brute force
 - the page should feel airy, friendly, and capable
+
+Screenshot-derived refinements:
+
+- hero often feels lighter and more open than other computing pages
+- the first emotional proof is usually thinness, lift, color, or ease
+- highlights arrive early and act as a reassurance layer before heavier proof
+- sections frequently alternate between object beauty and practical lifestyle use
+- device-on-screen content is curated to feel clean, productive, and optimistic
+- image-first modules with short captions underneath are especially common for portability, app use, and daily-life proof
 
 ### Workstation Flagship Laptop
 
@@ -91,6 +107,14 @@ Use when:
 - color and approachability matter
 - the product is meant to feel welcoming instead of intimidating
 
+Screenshot-derived refinements:
+
+- the page usually feels more playful and socially legible than Air
+- color is not just a finish option; it becomes part of the product identity
+- sections move faster and feel more merchandising-friendly
+- lifestyle and app scenarios surface earlier than abstract technical prestige
+- the proof often emphasizes everyday capability, school/work/play fit, and confidence rather than professional seriousness
+
 ### All-in-One Desktop Statement
 
 Best reference: iMac.
@@ -121,6 +145,46 @@ Across these pages, a common rhythm appears:
 
 The order can flex, but the object usually gets established before the heavy proof.
 
+Within that rhythm, another repeated module appears:
+
+1. large visual block
+2. short bold takeaway below
+3. optional muted explanatory line
+
+This is especially common in:
+
+- app or AI workflow examples
+- portability scenes
+- size-choice explanations
+- simple lifestyle proof moments
+
+## Air Vs Neo
+
+These two pages are especially useful because they show how the same broader archetype can split into two tones.
+
+### MacBook Air
+
+- more refined and aspirational
+- more empty space around the object
+- stronger emphasis on lift, thinness, and calm confidence
+- object beauty and productivity proof stay in balance
+- feels premium first, approachable second
+
+### MacBook Neo
+
+- more cheerful and direct
+- more colorful and youth-facing
+- earlier emphasis on practical fit and everyday value
+- more willing to use playful scenes and expressive on-screen content
+- feels approachable first, premium second
+
+Design takeaway:
+
+- `Air` is the elegant everyday laptop
+- `Neo` is the welcoming everyday laptop
+
+They can share the same underlying system while clearly targeting different emotional temperatures.
+
 ## Design Principles Specific To Computing Devices
 
 ### Thinness Needs Stagecraft
@@ -134,6 +198,8 @@ Use:
 - profile silhouettes
 - wide empty space around the device
 
+Often this proof is stronger in a full-width or near-full-width stage than inside a dense content card.
+
 ### Screen Value Needs Content Curation
 
 A laptop display is sold partly through what is shown on screen.
@@ -146,6 +212,8 @@ Use content that demonstrates:
 - immersive media
 
 Do not place weak or generic placeholder UI in a hero device.
+
+When a screen example already proves the point, place the explanatory caption below the image instead of overlaying too much copy on top.
 
 ### Performance Needs Both Emotion And Evidence
 
@@ -184,6 +252,8 @@ Borrow:
 - restraint
 - object-led hierarchy
 - contrast between object beauty and evidence-heavy sections
+- full-width stage sections mixed with a few local proof cards
+- image-plus-caption modules for quick buyer understanding
 
 Do not borrow literally:
 

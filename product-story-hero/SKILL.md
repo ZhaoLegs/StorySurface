@@ -39,6 +39,13 @@ Typical ingredients:
 - one dominant product visual
 - optional metadata such as availability, price-from, or film CTA when product type supports it
 
+For familiar hardware categories, default to an ultra-reduced hero:
+
+- the product visual should dominate the screen
+- the text block should stay compact
+- keep only title, short support copy, and CTA
+- add metadata only when it improves buying clarity without crowding the composition
+
 ## Writing Rules
 
 - Keep the headline extremely short.
@@ -61,6 +68,8 @@ Typical hero voice:
 - Give the composition more space than seems strictly necessary.
 - Use scale, crop, and contrast to make the product feel iconic.
 - Keep surface effects subtle.
+- Let the image occupy far more area than the text.
+- Prefer one huge object moment over multiple smaller supporting visuals.
 
 ## CTA Rules
 
@@ -71,6 +80,8 @@ Prefer a compact pair:
 - one clear primary action when the page should stay especially quiet
 
 Do not overload the hero with links, badges, stats, or chips.
+
+If the hero starts to feel like a feature summary, reduce it further.
 
 ## Archetype Adjustments
 
@@ -117,3 +128,4 @@ Before finishing, verify:
 - Are there too many words competing with the image?
 - Is the CTA system minimal and clear?
 - Does the mobile hero still feel authored and iconic?
+- Does the text occupy less visual weight than the product image?

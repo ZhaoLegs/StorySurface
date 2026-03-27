@@ -59,6 +59,16 @@ Prefer:
 
 Avoid generic SaaS filler like icon cards, dashboard mosaics, testimonial walls, and metric strips unless the product truly needs them.
 
+For familiar hardware or product categories, the opening section should usually be extremely reduced:
+
+- one dominant oversized product image
+- one small text cluster
+- headline
+- short support line
+- one CTA or a restrained CTA pair
+
+Do not treat the hero as a summary panel. The first screen should feel like a clean product statement, not a content stack.
+
 ### 3. Typography Carries Authority
 
 Typography should do most of the work.
@@ -85,6 +95,25 @@ Use:
 - clear rhythm changes between dense and airy moments
 
 Do not fill every gap. The best product-story pages often feel expensive because they leave room for attention to land.
+
+### 4.5 Full-Width Stage Before Card Stack
+
+For premium computing and product-launch pages, default to full-width narrative sections before reaching for repeated rounded cards.
+
+Prefer:
+
+- full-width hero stages
+- full-width design or lifestyle bands
+- one large visual carrying the section
+- only a few local cards for highlights, compare, or utility details
+
+Avoid:
+
+- wrapping every module in the same rounded container
+- turning the whole page into a vertical stack of presentation cards
+- using card chrome as the main source of hierarchy
+
+Cards are tools, not the page grammar.
 
 ### 5. Surfaces Should Feel Physical
 
@@ -143,13 +172,15 @@ Avoid:
 Consult the references before implementing:
 
 - `references/base-language.md` for the stable visual and interaction layer
+- `references/web-design-tokens.md` for implementation-facing colors, type ladders, spacing cadence, grid rules, component radii, and motion values
 - `references/narrative-archetypes.md` for choosing the right storytelling structure
 - `references/web-principles.md` for overall aesthetic rules
 - `references/component-patterns.md` for layout and section patterns
 - `references/copy-and-motion.md` for tone, CTA structure, and motion behavior
 - `references/computing-product-patterns.md` for laptop and desktop launch-page structures
+- `references/iphone-family-patterns.md` for how one product family shifts tone, darkness, proof density, and pacing across Air, standard, value, and Pro tiers
 - `references/motion-showcase-patterns.md` for premium product-motion roles and anti-patterns
-- `references/product-page-patterns.md` for product-page archetypes across iPhone, iPad, and accessories
+- `references/product-page-patterns.md` for product-page archetypes across flagship phones, creator tablets, and accessory families
 
 Typical page structure:
 
@@ -165,16 +196,31 @@ Choose the page archetype before designing:
 
 - `flagship launch`: cinematic, immersive, feature-led, strongest for Pro-tier products
 - `value launch`: simpler, clearer, more comparative, strongest for entry products
-- `creator device`: balances performance with lifestyle and accessory workflows, strongest for iPad Air and iPad mini
+- `creator device`: balances performance with lifestyle and accessory workflows, strongest for lightweight tablets and portable creative devices
 - `accessory decision page`: feature explanation plus compatibility and comparison, strongest for stylus or accessory families
 - `performance wearable`: sectioned by daily activity, health, fitness, or outdoor capability, strongest for smartwatch-like products
 - `new-platform manifesto`: sells a new mental model before features, strongest for spatial-computing or new-category products
 - `sensory experience product`: translates invisible benefits like sound, comfort, or noise control into imagery and proof, strongest for audio products
-- `co-branded variant`: shorter, affinity-driven, and merchandising-forward, strongest for Nike-style collaboration pages
-- `everyday computing device`: blends object appeal with approachable daily-use proof, strongest for MacBook Air, MacBook Neo, and iMac-like products
-- `workstation computing flagship`: balances premium industrial design with heavier proof, strongest for MacBook Pro-like products
+- `co-branded variant`: shorter, affinity-driven, and merchandising-forward, strongest for collaboration-driven variant pages
+- `everyday computing device`: blends object appeal with approachable daily-use proof, strongest for thin everyday laptops and approachable desktop computing products
+- `workstation computing flagship`: balances premium industrial design with heavier proof, strongest for professional laptops and creator-class desktop products
 
 Do not use the same section cadence for all of them.
+
+Across many current computing and lifestyle pages, an especially common structure is:
+
+1. full-width stage image or product scene
+2. short caption block directly below the image
+3. one bold lead sentence
+4. one quieter support sentence when needed
+
+Use this pattern often for:
+
+- lifestyle proof
+- portability proof
+- size comparisons
+- app or workflow examples
+- object beauty moments that do not need heavy UI around them
 
 ## Anti-Patterns
 

@@ -259,6 +259,23 @@ Traits:
 
 Use when physical form is a primary differentiator.
 
+## iPhone Family Variation
+
+The iPhone family is one of the clearest proofs that this design system is not one frozen template.
+
+Within one family:
+
+- `iPhone Air` shifts toward elegance, thinness, and lighter atmosphere
+- `iPhone 17 Pro` shifts toward dark cinematic staging, material focus, and denser flagship proof
+- `iPhone 17` shifts toward balanced premium accessibility and brighter mainstream desirability
+- `iPhone 17e` shifts toward quicker value explanation and more direct practical proof
+
+Use:
+
+- [iphone-family-patterns.md](iphone-family-patterns.md)
+
+when the page needs to stay inside one product family while changing tier, tone, and proof density.
+
 ### Feature Deep-Dive Pattern
 
 Observed across all device pages.

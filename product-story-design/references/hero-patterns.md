@@ -16,6 +16,16 @@ Across product families, strong launch-page heroes usually share:
 
 The hero should feel iconic within seconds.
 
+For the strongest first-screen executions on familiar product pages:
+
+- the product image takes most of the area
+- the text block occupies a small portion of the composition
+- the copy usually stops at title plus one short support line
+- the CTA system stays minimal
+- most first screens do not need a huge text stack; strong section headings later in the page often work better around `56px` than `64px`
+
+This is extreme simplification on purpose. The hero should present the product, not explain the page.
+
 ## What The Hero Must Accomplish
 
 The first screen should answer:
@@ -25,6 +35,16 @@ The first screen should answer:
 - what should I do next?
 
 It should not try to answer every feature question yet.
+
+In many successful heroes, the first screen is effectively:
+
+- product name
+- one short promise
+- one short clarifying line
+- one button or quiet CTA pair
+- one huge product visual
+
+Avoid adding highlights, spec bullets, chips, badges, extra paragraphs, or utility rows unless the product type truly demands them.
 
 ## Common Hero Shapes
 
@@ -36,6 +56,7 @@ Use when:
 
 - the object is visually strong
 - the product category is already familiar
+- the page should feel maximally reduced and iconic
 
 ### 2. Name + Stacked Promise + Product Object
 
@@ -106,6 +127,8 @@ Avoid:
 - decorative gradients competing with the product
 - multiple equally loud images
 - headline systems that feel like startup marketing templates
+- large text blocks that compete with the product image
+- feature bullets, spec tiles, or highlight rails inside the first screen
 
 ## Mobile Hero Rules
 

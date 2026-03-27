@@ -2,7 +2,7 @@
 
 The product-story vocabulary your AI frontend still needs.
 
-11 modular skills, reusable design references, and practical examples for building premium product-story landing pages with AI.
+11 modular skills and reusable design references for building premium product-story landing pages with AI.
 
 > **Quick start:** Start with [product-story-design/SKILL.md](product-story-design/SKILL.md), then use [product-story-director/SKILL.md](product-story-director/SKILL.md) to route the work by page type, section type, and narrative archetype.
 
@@ -35,9 +35,11 @@ A central design skill supported by focused references:
 | Reference | Covers |
 |-----------|--------|
 | [base-language.md](product-story-design/references/base-language.md) | Product-first hierarchy, spacing, restraint, CTA philosophy |
+| [web-design-tokens.md](product-story-design/references/web-design-tokens.md) | Implementation-facing color, type, spacing, grid, card, and motion tokens |
 | [narrative-archetypes.md](product-story-design/references/narrative-archetypes.md) | Page structures by product type and buyer intent |
 | [component-patterns.md](product-story-design/references/component-patterns.md) | Reusable landing-page modules and section logic |
 | [hero-patterns.md](product-story-design/references/hero-patterns.md) | First-screen composition, promise framing, CTA rhythm |
+| [iphone-family-patterns.md](product-story-design/references/iphone-family-patterns.md) | How one product family shifts tone, pacing, darkness, and proof density across tiers |
 | [copy-and-motion.md](product-story-design/references/copy-and-motion.md) | Short-form copy style and purposeful motion rules |
 | [motion-showcase-patterns.md](product-story-design/references/motion-showcase-patterns.md) | Reveal pacing, finish swap, detail zoom, capability demos |
 | [product-page-patterns.md](product-story-design/references/product-page-patterns.md) | Shared structure across premium product pages |
@@ -151,6 +153,7 @@ Do not use this repository to copy trademarked assets, proprietary copy, or bran
 - [design-methodology.md](design-methodology.md)
 - [ai-frontend-design-spec.md](ai-frontend-design-spec.md)
 - [ai-frontend-design-prompt-template.md](ai-frontend-design-prompt-template.md)
+- [frontend-copyable-tokens.md](frontend-copyable-tokens.md)
 
 ## Supported Setup
 
@@ -158,8 +161,8 @@ StorySurface is currently organized as a local skill repository for Codex-style 
 
 The methodology can still be reused manually in other AI coding tools, but this repository is currently structured and tested as a Codex-friendly skill set.
 
+Local prototype pages may exist in a private `examples/` directory during development, but they are not part of the published skill surface by default.
+
 ## License
 
-Choose and add a license before wider publication.
-
-I have intentionally not selected one automatically because that decision has legal consequences.
+StorySurface is licensed under the [MIT License](LICENSE).

@@ -4,6 +4,10 @@ This document is the unified design summary for the `product-story-*` skill syst
 
 Its purpose is not to document one brand's website. Its purpose is to extract reusable design principles, storytelling structures, interaction patterns, and implementation heuristics that can be applied to other premium product projects.
 
+For the shortest AI-facing version of this methodology, also use:
+
+- [frontend-copyable-tokens.md](frontend-copyable-tokens.md)
+
 It is designed to be portable:
 
 - for new product pages
@@ -35,6 +39,19 @@ That means the method covers two layers:
 The stable design language stays mostly consistent across projects.
 The narrative changes depending on what the product is and what the buyer needs to understand first.
 
+In implementation work, there is also a practical third layer:
+
+3. a token and execution layer
+
+This layer turns the design language into reusable web values for:
+
+- color foundations
+- type ladders
+- spacing cadence
+- grid behavior
+- component radii and padding
+- motion timing and easing
+
 ## 2. The Stable Layer
 
 The stable layer is the part that should transfer across projects most reliably.
@@ -49,6 +66,14 @@ Implications:
 - interface chrome should frame the product, not compete with it
 - decorative devices should stay secondary
 - the user should remember the product, not the layout gimmick
+
+In first-screen design, this often means an extreme reduction:
+
+- one oversized product image
+- one compact text cluster
+- title, short support line, and CTA only
+
+The opening should feel like a product statement, not an information block.
 
 ### 2.2 Typography Carries Hierarchy
 
@@ -82,8 +107,9 @@ Surface design should feel dimensional without becoming noisy.
 
 Use:
 
-- soft gradients
-- subtle tinting
+- dark, white, graphite, and light-gray foundations
+- occasional restrained atmospheric gradients
+- subtle tinting only when it supports the product
 - crisp edges
 - minimal shadow
 - restrained layering
@@ -94,15 +120,19 @@ Avoid:
 - decorative glow without purpose
 - layered card stacks everywhere
 
+In practice, many premium product pages are built on neutral sections plus a few large rounded presentation cards.
+
 ### 2.5 Color Is Controlled
 
 A premium product page usually benefits from:
 
 - a neutral base
-- one controlled accent family
+- one controlled accent family at most
 - strong color moments coming from the product itself
 
 Color should clarify emphasis, not create chaos.
+
+Bright gradients and colorful UI surfaces should be treated as rare atmosphere moments, not default design behavior.
 
 ### 2.6 CTA Systems Stay Sparse
 
@@ -159,6 +189,31 @@ The mobile version should preserve the same hierarchy and emotional promise, but
 - simplified composition
 
 Do not just shrink desktop.
+
+### 2.10 Token Layer
+
+For implementation work, this system should also be expressed as tokens and working ranges.
+
+Use:
+
+- [product-story-design/references/web-design-tokens.md](product-story-design/references/web-design-tokens.md)
+
+That file captures the portable execution layer for:
+
+- colors
+- typography
+- spacing
+- grid
+- components
+- motion
+
+It also captures the practical web-expression rules surfaced by screenshot study, such as:
+
+- reusable typography roles
+- weight ladders
+- tracking ranges
+- line-height bands
+- hero, feature, spec-card, and nav/meta combinations
 
 ## 3. The Variable Layer
 

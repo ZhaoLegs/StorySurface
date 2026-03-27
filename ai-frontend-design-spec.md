@@ -4,6 +4,10 @@ This document is a practical design spec for improving AI-generated frontend pag
 
 It is derived from the `product-story-*` methodology, but rewritten as an optimization guide for actual implementation work.
 
+If you need the shortest copy-paste version for prompting, also use:
+
+- [frontend-copyable-tokens.md](frontend-copyable-tokens.md)
+
 Use it when:
 
 - asking AI to generate a landing page
@@ -52,6 +56,12 @@ These are the rules AI should keep consistent across most premium product pages.
 - Let size, spacing, and rhythm do more work than color and decoration.
 - Body text should be readable and not overly wide.
 
+Desktop heading restraint:
+
+- treat `56px` as the default large section-heading size
+- use `64px` only for rarer, more forceful moments
+- if every large heading is `64px`, the page loses pacing and the hierarchy flattens
+
 ### 2.3 Whitespace Is A Tool
 
 - Leave room around important content.
@@ -61,10 +71,20 @@ These are the rules AI should keep consistent across most premium product pages.
 
 ### 2.4 Surfaces Stay Quiet
 
+- Use black, white, graphite, and light gray as the main background families.
 - Use subtle gradients and restrained shadow.
 - Prefer soft depth over flashy effects.
-- Keep cards rare and purposeful.
+- Keep cards large, rare, and purposeful.
 - Never stack cards inside cards by default.
+
+Observed pattern:
+
+- many premium product pages are built from neutral full-width sections plus a few large rounded presentation cards
+- color is usually introduced by the product, the media, or one controlled hero atmosphere
+- pale color washes should be occasional, not the default page treatment
+- do not wrap every major section in the same rounded card
+- for computing and lifestyle product pages, full-width narrative bands should usually be the default rhythm
+- keep one stable inner content width even when backgrounds go full bleed
 
 ### 2.5 CTAs Stay Sparse
 
@@ -114,6 +134,19 @@ Hero checklist:
 - one primary CTA and optional secondary CTA
 - no clutter
 
+Default premium rule:
+
+- let the product image take most of the first screen
+- keep the copy cluster visually small
+- do not add stats, chips, feature bullets, or explanatory grids in the hero
+- if the category is already familiar, simplify even further
+
+Hero background guidance:
+
+- default to neutral or nearly neutral grounds
+- use color atmospheres only when they directly reinforce the product mood
+- do not turn the whole hero into a decorative gradient experiment
+
 ### 4.2 Highlights
 
 Use a highlights section when the page has multiple strong selling points.
@@ -123,6 +156,8 @@ Rules:
 - 3-6 topics
 - each topic gets one visual anchor
 - each topic gets one sentence of proof
+- prefer large cards or large slides over small equal cards
+- keep card surfaces simple and mostly neutral
 - this section previews the page, it does not repeat the whole page
 
 ### 4.3 Closer Look
@@ -152,6 +187,20 @@ Examples:
 - display
 
 Each section should answer one clear question.
+
+Common premium pattern:
+
+- large image first
+- compact caption block directly below
+- one bold takeaway sentence
+- one short muted support sentence
+
+Use this often when the image already proves the value.
+
+Card copy rule:
+
+- if the section already provides the title, avoid another headline inside the card
+- keep most card text in the `17px` to `21px` range
 
 ### 4.5 Comparison
 
@@ -200,6 +249,8 @@ Use:
 - screen-content curation
 - everyday vs pro proof density
 - platform and continuity benefits
+- full-width design or lifestyle bands as the default skeleton
+- image plus short caption-below modules for app proof, portability, and size decisions
 
 ### 5.4 New Platform
 
@@ -218,12 +269,31 @@ Use:
 
 These rules help AI-generated pages feel cleaner in code and output.
 
+### 6.0 Use A Neutral Foundation
+
+Prefer a restrained base token set:
+
+- `--bg: #000` or `#1d1d1f` for dark product-story sections
+- `--bg: #f5f5f7` or nearby values for light sections
+- `--panel: #fff` or near-white for large cards on light pages
+- `--panel-dark: #000` or near-black for cinematic cards on dark pages
+
+Avoid making the whole page colorful just to make it feel premium.
+
+If you use a tint:
+
+- keep it pale
+- keep it local
+- keep it subordinate to the product image
+
 ### 6.1 Use Design Tokens
 
 Prefer:
 
 - `--bg`
+- `--bg-alt`
 - `--panel`
+- `--panel-dark`
 - `--text`
 - `--muted`
 - `--accent`
@@ -238,11 +308,43 @@ Avoid hard-coding unrelated values all over the page.
 - Keep typography and spacing responsive.
 - Avoid pixel-locked layouts.
 
+Suggested desktop type ladder, based on observed product-page relationships:
+
+- product name / eyebrow heading: about `2.125rem`
+- section marker heading: about `3.5rem`
+- major chapter heading: about `5rem`
+- oversized hero statement: larger only when the product tone supports it
+- body copy: about `1.0625rem`
+- small metadata: about `1.0625rem` with tighter leading
+
+Suggested desktop leading relationships:
+
+- display text should be tight
+- body text should be relaxed
+- metadata should be compact
+
+Do not use one uniform line-height system for every text role.
+
 ### 6.3 Use Layout Systems Intentionally
 
 - Flex for simple one-dimensional composition
 - Grid for larger section layout
 - `gap` for spacing instead of margin hacks
+
+Suggested spacing rhythm, based on observed product-page cadence:
+
+- major section top padding often starts around `8rem` to `10rem`
+- large dark story sections often carry heavier bottom padding than light utility sections
+- presentation cards should feel tall and roomy, not compressed
+- avoid many medium-sized blocks stacked with identical gaps
+
+Suggested working grid:
+
+- desktop: `12` columns
+- mobile: `4` columns
+- desktop design baseline can start around `1440px`
+- copy-heavy sections should usually be calmer and narrower than full-bleed media sections
+- mobile side padding should usually stay around `16px` to `20px`
 
 ### 6.4 Keep The DOM Calm
 
@@ -256,6 +358,18 @@ Avoid hard-coding unrelated values all over the page.
 - Keep tap targets large enough
 - Re-author composition for smaller screens
 
+### 6.6 Use Component Tokens Consistently
+
+Suggested working values:
+
+- CTA button height around `44px`
+- CTA text around `17px`
+- large showcase-card radius around `28px`
+- smaller utility-card radius around `14px` to `20px`
+- card padding around `32px` to `48px`
+
+Do not use the same radius and padding values for every component on the page.
+
 ## 7. Motion Guidance For AI
 
 When asking AI to add motion, ask for one of these explicitly:
@@ -266,7 +380,16 @@ When asking AI to add motion, ask for one of these explicitly:
 - detail zoom
 - capability simulation
 
+Working motion values:
+
+- easing: `cubic-bezier(.25, 1, .25, 1)`
+- fast response: about `120ms` to `180ms`
+- section reveal: about `300ms` to `500ms`
+- reveal distance: usually small, such as `8px` to `24px`
+
 Do not ask for “more animation” in general. That usually makes the page worse.
+
+Do not ask for generic AOS-like fly-ins across the whole page.
 
 ## 8. Prompting AI Well
 
