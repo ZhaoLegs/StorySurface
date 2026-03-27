@@ -1,67 +1,57 @@
 # StorySurface
 
-StorySurface is a skill system and design methodology for building premium product-story landing pages with AI.
+The design vocabulary your AI frontend still needs.
 
-It turns design research into reusable skills, frontend guidance, and implementation patterns for teams who want AI-generated pages to feel calmer, more intentional, more product-led, and less like generic templates.
+StorySurface is a skill system and design methodology for building premium product-story landing pages with AI. It helps AI-generated pages feel calmer, clearer, more product-led, and less like generic component piles.
 
-## What This Is
+> Quick start: start with [product-story-design/SKILL.md](product-story-design/SKILL.md), then use [product-story-director/SKILL.md](product-story-director/SKILL.md) to route work by page type and section need.
 
-This repo contains:
+## Why StorySurface?
 
-- a core design skill for premium product-story pages
-- routing and refinement skills for page sections and polish passes
-- reusable design methodology and AI frontend design specs
-- examples showing how the system can be applied in practice
+Most AI frontend outputs are not bad because the code is broken. They are bad because the design language is under-specified.
 
-The system is especially useful for:
+Without guidance, AI tends to fall back to the same patterns:
 
-- product landing pages
-- launch pages
-- premium marketing pages
-- hardware and software showcase pages
-- AI-assisted frontend generation and refinement
+- generic card grids
+- long hero copy
+- purple-blue gradients
+- too many buttons
+- repetitive section structure
+- motion that decorates instead of clarifies
 
-## What This Is Not
+StorySurface pushes against that bias with:
 
-This repository is not a brand-cloning kit.
+- a core product-story design skill
+- modular section and refinement skills
+- reusable design methodology for premium landing pages
+- AI-specific frontend design rules and prompt templates
+- practical examples that show the system in use
 
-It studies premium product-marketing patterns and extracts reusable design principles such as:
+## What's Included
 
-- product-first hierarchy
-- restrained typography
-- generous but edited whitespace
-- low-noise surfaces
-- sparse CTA systems
-- purposeful motion
-- narrative page structure based on buyer intent
+### Core system
 
-Research examples include well-known premium product pages, but the goal is transfer learning, not literal imitation.
+- [product-story-design/SKILL.md](product-story-design/SKILL.md)  
+  Core design language and page-building logic for premium product-story pages.
 
-Do not use this repository to copy trademarked assets, proprietary copy, or brand-identical page designs.
+- [product-story-director/SKILL.md](product-story-director/SKILL.md)  
+  Routes work to the right skill based on page type, module type, and narrative archetype.
 
-## Repo Structure
+- [teach-product-story/SKILL.md](teach-product-story/SKILL.md)  
+  Gathers project context and writes reusable design guidance into `.product-story.md`.
 
-### Core skills
-
-- [product-story-design/SKILL.md](product-story-design/SKILL.md)
-- [product-story-director/SKILL.md](product-story-director/SKILL.md)
-- [teach-product-story/SKILL.md](teach-product-story/SKILL.md)
-
-### Page-building and module skills
+### Build and refine
 
 - [product-story-launch/SKILL.md](product-story-launch/SKILL.md)
 - [product-story-hero/SKILL.md](product-story-hero/SKILL.md)
 - [product-story-highlights/SKILL.md](product-story-highlights/SKILL.md)
 - [product-story-closer-look/SKILL.md](product-story-closer-look/SKILL.md)
-
-### Refinement and review skills
-
 - [product-story-typeset/SKILL.md](product-story-typeset/SKILL.md)
 - [product-story-arrange/SKILL.md](product-story-arrange/SKILL.md)
 - [product-story-polish/SKILL.md](product-story-polish/SKILL.md)
 - [product-story-audit/SKILL.md](product-story-audit/SKILL.md)
 
-### Design documentation
+### Design docs
 
 - [design-methodology.md](design-methodology.md)
 - [ai-frontend-design-spec.md](ai-frontend-design-spec.md)
@@ -71,6 +61,34 @@ Do not use this repository to copy trademarked assets, proprietary copy, or bran
 
 - [examples/lumen-buds-pro-product-story.md](examples/lumen-buds-pro-product-story.md)
 - [examples/lumen-buds-pro-demo.html](examples/lumen-buds-pro-demo.html)
+
+## What It Helps You Build
+
+StorySurface is especially useful for:
+
+- product landing pages
+- launch pages
+- premium marketing pages
+- hardware and software showcase pages
+- AI-assisted frontend generation and refinement
+
+## What It Is Not
+
+StorySurface is not a brand-cloning kit.
+
+It studies premium product-marketing patterns and extracts reusable principles such as:
+
+- product-first hierarchy
+- restrained typography
+- edited whitespace
+- quiet surfaces
+- sparse CTA systems
+- purposeful motion
+- narrative page structure based on buyer intent
+
+Research examples include well-known premium product pages, but the goal is transfer learning, not literal imitation.
+
+Do not use this repository to copy trademarked assets, proprietary copy, or brand-identical page designs.
 
 ## How To Use
 
