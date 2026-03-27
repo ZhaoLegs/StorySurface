@@ -202,6 +202,18 @@ Card copy rule:
 - if the section already provides the title, avoid another headline inside the card
 - keep most card text in the `17px` to `21px` range
 
+Card surface rule:
+
+- use `28px` to `30px` for large light-surface showcase cards
+- use `18px` to `20px` for darker showcase cards
+- use `12px` for utility selection cards, not for hero media stages
+
+When multiple proof moments need to sit together:
+
+- prefer a horizontal gallery or a small set of value tiles
+- keep the outer section title outside the cards
+- keep card-internal text quiet and body-sized
+
 ### 4.5 Comparison
 
 Comparison sections should become quieter and more factual than the emotional parts of the page.
@@ -251,6 +263,9 @@ Use:
 - platform and continuity benefits
 - full-width design or lifestyle bands as the default skeleton
 - image plus short caption-below modules for app proof, portability, and size decisions
+- a calm copy anchor near `980px` with wider media stages that can stretch toward `1260px`
+- slide galleries and value tiles as reusable proof modules
+- expanded detail overlays when one proof needs richer inspection without bloating the main page
 
 ### 5.4 New Platform
 
@@ -345,6 +360,8 @@ Suggested working grid:
 - desktop design baseline can start around `1440px`
 - copy-heavy sections should usually be calmer and narrower than full-bleed media sections
 - mobile side padding should usually stay around `16px` to `20px`
+- calm copy rows can stay near `980px`
+- media-led stages can widen toward `1260px` without changing the overall page rhythm
 
 ### 6.4 Keep The DOM Calm
 
@@ -367,6 +384,8 @@ Suggested working values:
 - large showcase-card radius around `28px`
 - smaller utility-card radius around `14px` to `20px`
 - card padding around `32px` to `48px`
+- gallery tiles can be larger and wider than standard cards
+- utility close controls or media controls should use `44px` hit areas
 
 Do not use the same radius and padding values for every component on the page.
 

@@ -88,6 +88,60 @@ Guidelines:
 - Best for lifestyle proof, portability proof, app examples, and size comparisons.
 - Common in computing pages where the image sells the feeling and the caption closes the argument.
 - If text appears inside the card itself, keep it quiet and body-sized rather than headline-sized.
+- Prefer `14px` to `17px` for captions and `17px` to `21px` for slightly stronger supporting copy.
+- If the section already owns the headline, the card should usually not introduce a second title.
+
+## 3.7 Slide Gallery
+
+Use when the section needs multiple visual proofs but should still feel premium and object-led.
+
+Structure:
+
+- horizontally paced rail or gallery
+- large media tiles
+- sparse controls
+- short caption beneath each tile or beneath the active stage
+
+Guidelines:
+
+- Prefer this over stacking many equal cards vertically.
+- Keep the tile count low and the subjects distinct.
+- Gallery tiles can be wider than calm copy rows, but they should still belong to one shared media frame.
+- Good for app proof, AI workflow proof, design details, and progressive value stories.
+
+## 3.8 Value Tile Grid
+
+Use when the page needs a few strong proof moments that are bigger than utility cards but quieter than a hero.
+
+Structure:
+
+- 2-up or 3-up tile layout on desktop
+- large tiles with roomy padding
+- one proof idea per tile
+- optional image, stat, or short body-sized copy
+
+Guidelines:
+
+- Treat these as mini stages, not feature-list cards.
+- Use large light-surface radii for showcase tiles and compress earlier on medium screens.
+- If the surrounding section already has the title, keep tile copy quiet and compact.
+
+## 3.9 Expanded Detail Modal
+
+Use when a gallery, closer-look section, or proof tile needs more detail than the scroll page should carry.
+
+Structure:
+
+- large quiet overlay
+- one focused media or detail view
+- compact support copy
+- obvious close control
+
+Guidelines:
+
+- Overlays should feel spacious and neutral, not like app-style dialogs.
+- Keep backdrop blur subtle but present.
+- Use generous hit areas for close controls even when the visible icon is minimal.
 
 ## 4. Comparison Or Ecosystem Band
 

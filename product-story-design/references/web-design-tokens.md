@@ -109,6 +109,22 @@ Important restraint rule:
 - use `64px` more sparingly for stronger launch or hero-adjacent moments
 - do not make every major section headline `64px`, or the page loses pacing and emphasis
 
+### 2.0.1 Code-Backed UI Copy Values
+
+From the saved Apple page CSS, several smaller UI values repeat often enough to become useful constraints:
+
+- explanation copy often sits at `17px` with line-height near `1.47`
+- caption or supporting text often sits at `14px` to `15px`
+- labels, nav, and footnote-scale UI often sit at `12px` to `13px`
+- compact proof-card copy can scale up to `21px` when the card itself carries the proof
+
+Practical use:
+
+- default explanation copy: `17px`
+- image caption or supporting line: `14px` to `15px`
+- eyebrow, tag, or micro label: `12px` to `13px`
+- card-internal proof copy: `17px` to `21px`
+
 ### 2.1 Portable Working Type Tokens
 
 - `--font-size-meta: 0.75rem`
@@ -214,6 +230,13 @@ Working rule:
 
 Do not run the whole page on one repeated spacing number.
 
+Observed smaller interface spacing worth preserving:
+
+- side-by-side proof-card gaps often land around `12px`
+- compact selector or utility-card stacks often use about `8px`
+- section label to heading often stays near `8px`
+- body copy to CTA often stays around `24px` to `32px`
+
 ## 4. Grid System
 
 Exact grids vary by page.
@@ -239,6 +262,28 @@ Important layout rule:
 - full-width section backgrounds can go edge to edge
 - the inner content frame should stay aligned across the page
 - do not let hero, design, display, and compare all use noticeably different content widths without a strong reason
+
+Code-backed anchor values worth reusing:
+
+- local navigation content is often constrained near `980px`
+- desktop horizontal content padding often lands around `22px`
+- smaller breakpoints reduce that padding to around `16px`
+- sticky light scrim can sit around `rgba(250, 250, 252, 0.8)`
+- sticky dark scrim can sit around `rgba(22, 22, 23, 0.8)`
+
+Useful distinction from newer computing-page code:
+
+- calm copy anchor: often near `980px`
+- wider media-stage anchor: can expand toward `1260px`
+
+Use the wider width for:
+
+- design stages
+- slide galleries
+- visual compare moments
+- expanded proof sections
+
+Do not treat `1260px` as the new default copy width.
 
 ### 4.2 Tablet
 
@@ -266,7 +311,8 @@ Mobile is a rewrite of composition, not a shrunken desktop grid.
 
 Working values:
 
-- height: about `44`
+- primary CTA height: about `36`
+- circular utility control height: about `44`
 - text size: about `17`
 - horizontal padding: about `22` to `28`
 - radius: pill or very large capsule
@@ -288,7 +334,8 @@ Observed button pattern from screenshot study:
 - primary: filled accent button
 - secondary: stroked accent button on light background
 - dark variant: filled dark button when needed on light surfaces
-- the most reusable desktop button height is `44px`
+- many commerce CTAs land closer to `36px`
+- circular playback controls and some utility controls land closer to `44px`
 
 ### 5.2 Radius
 
@@ -303,12 +350,21 @@ Useful radius ladder:
 
 Use `28` for large showcase cards more often than for small utility cards.
 
+Context rules from measured pages and saved CSS:
+
+- dark-background showcase cards: `18px` to `20px`
+- light-background large presentation cards: `28px` to `30px`
+- utility selection cards: `12px`
+- icon containers or compact comparison glyph surfaces: around `16px`
+
 ### 5.3 Cards
 
 Working values:
 
-- large product cards: `28px` radius
+- large light-surface product cards: `28px` to `30px`
+- dark-surface showcase cards: `18px` to `20px`
 - smaller cards: `14` to `20`
+- utility selection cards: `12px`
 - internal padding: `32` to `48`
 - default backgrounds: `#fff`, `#f5f5f7`, `#000`, `#1c1c1e`
 
@@ -320,6 +376,7 @@ Rules:
 - keep shadows restrained or remove them entirely when the product image is already strong
 - if the surrounding section already provides the title, do not repeat another headline inside the card
 - when cards contain text, default to quiet copy in the `17px` to `21px` range
+- if the card is supporting an already-titled section, treat it like proof or caption space before treating it like another content block
 
 ### 5.4 Images
 
@@ -330,7 +387,41 @@ Rules:
 - do not add heavy shadow when the real page behavior is cleaner without it
 - prefer web delivery formats such as `AVIF` and `WebP`
 
-## 5.5 Reusable Composition Combos
+### 5.5 Galleries And Proof Tiles
+
+Working values seen in saved code and cross-checked against page behavior:
+
+- gallery or slide-stage radius: around `30px`
+- gallery item width: around `372px`
+- gallery gap: around `25px`
+- large value-tile radius: around `28px`
+- desktop value-tile padding: around `28px 76px 48px 32px`
+- medium value-tile padding: around `28px 56px 48px 28px`
+- mobile value-tile padding: around `24px 24px 48px`
+
+Rules:
+
+- use wide gallery tiles for sequential visual proof
+- keep value tiles roomy on desktop, then compress them early
+- gallery and proof tiles should live inside a shared media-stage width, not float to arbitrary widths
+
+### 5.6 Modal And Expanded Detail Layers
+
+Working values:
+
+- expanded overlay max width: around `1420px`
+- overlay radius: around `25px`
+- close icon size: around `36px`
+- close hit area: around `44px`
+- stronger overlay blur states: up to `20px`
+
+Rules:
+
+- use expanded layers sparingly for richer inspection
+- keep overlays large, quiet, and easy to dismiss
+- let the detail view feel like an extension of the page, not a separate app dialog
+
+## 5.7 Reusable Composition Combos
 
 These combinations came up repeatedly in the screenshot study and are useful as AI-facing layout presets.
 
@@ -438,6 +529,13 @@ Working behavior:
 - subtle blur
 - slight opacity transition
 - no dramatic shrink gimmicks
+
+Code-backed working values:
+
+- content max width near `980px`
+- inner padding near `22px`, then `16px` on smaller breakpoints
+- action spacing around `24px` before the first action and `10px` between actions
+- blur can climb to `20px` for menu-curtain states, but should stay gentler in resting sticky states
 
 ## 7. AI Usage Rules
 

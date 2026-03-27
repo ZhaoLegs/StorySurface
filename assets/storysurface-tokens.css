@@ -1,0 +1,96 @@
+:root {
+  --ss-accent: #0071e3;
+  --ss-text: #1d1d1f;
+  --ss-muted: #6e6e73;
+  --ss-bg: #f5f5f7;
+  --ss-panel: #ffffff;
+  --ss-divider: rgba(0, 0, 0, 0.08);
+
+  --ss-bg-dark: #000000;
+  --ss-panel-dark: #1c1c1e;
+  --ss-surface-dark: #2c2c2e;
+  --ss-text-dark: #f5f5f7;
+  --ss-muted-dark: rgba(245, 245, 247, 0.72);
+  --ss-divider-dark: rgba(255, 255, 255, 0.12);
+
+  --ss-content-max: 1200px;
+  --ss-copy-max: 980px;
+  --ss-pad-desktop: 22px;
+  --ss-pad-mobile: 16px;
+
+  --ss-space-4: 4px;
+  --ss-space-8: 8px;
+  --ss-space-12: 12px;
+  --ss-space-16: 16px;
+  --ss-space-20: 20px;
+  --ss-space-24: 24px;
+  --ss-space-32: 32px;
+  --ss-space-40: 40px;
+  --ss-space-48: 48px;
+  --ss-space-80: 80px;
+  --ss-space-120: 120px;
+  --ss-space-160: 160px;
+  --ss-space-216: 216px;
+
+  --ss-radius-12: 12px;
+  --ss-radius-16: 16px;
+  --ss-radius-18: 18px;
+  --ss-radius-20: 20px;
+  --ss-radius-28: 28px;
+  --ss-radius-30: 30px;
+  --ss-radius-pill: 9999px;
+
+  --ss-font-hero-xl: clamp(5rem, 9vw, 6rem);
+  --ss-font-display-1: 56px;
+  --ss-font-display-1-strong: 64px;
+  --ss-font-display-2: 48px;
+  --ss-font-display-3: 40px;
+  --ss-font-title-1: 32px;
+  --ss-font-title-2: 24px;
+  --ss-font-subtitle-lg: 21px;
+  --ss-font-subtitle: 19px;
+  --ss-font-body-lg: 17px;
+  --ss-font-body: 15px;
+  --ss-font-small: 13px;
+  --ss-font-nav: 12px;
+
+  --ss-leading-display-tight: 1.05;
+  --ss-leading-display: 1.08;
+  --ss-leading-title: 1.15;
+  --ss-leading-subtitle: 1.35;
+  --ss-leading-body: 1.47;
+  --ss-leading-body-roomy: 1.6;
+
+  --ss-track-display-strong: -0.025em;
+  --ss-track-display: -0.02em;
+  --ss-track-title: -0.01em;
+  --ss-track-body: 0;
+  --ss-track-small: 0.005em;
+  --ss-track-eyebrow: 0.06em;
+
+  --ss-cta-height: 36px;
+  --ss-control-size: 44px;
+  --ss-cta-pad-x: 22px;
+  --ss-cta-gap: 10px;
+
+  --ss-ease-premium: cubic-bezier(0.25, 1, 0.25, 1);
+  --ss-duration-fast: 160ms;
+  --ss-duration-ui: 220ms;
+  --ss-duration-section: 420ms;
+  --ss-reveal-distance: 16px;
+  --ss-nav-scrim-light: rgba(250, 250, 252, 0.8);
+  --ss-nav-scrim-dark: rgba(22, 22, 23, 0.8);
+  --ss-nav-blur: 20px;
+}
+
+@media (max-width: 833px) {
+  :root {
+    --ss-content-pad: var(--ss-pad-mobile);
+  }
+}
+
+@media (min-width: 834px) {
+  :root {
+    --ss-content-pad: var(--ss-pad-desktop);
+  }
+}

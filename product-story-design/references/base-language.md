@@ -103,6 +103,13 @@ Common large-card behavior observed across current product pages:
 - cards are used as stage surfaces, not as a generic UI pattern repeated everywhere
 - the product image usually occupies most of the card, with copy pinned to an edge or corner
 
+More precise surface split:
+
+- dark-background showcase cards often feel tighter, around `18px` to `20px`
+- light-background showcase cards often open up to around `28px` to `30px`
+- utility selection cards in commerce flows often drop to around `12px`
+- icon or compact comparison surfaces often sit around `16px`
+
 Observed layout correction:
 
 - many important product sections are full-width bands rather than cards
@@ -191,6 +198,13 @@ Examples:
 
 These interactions are usually shallow and focused, not tool-like.
 
+Observed navigation behavior:
+
+- sticky local navigation tends to stay narrow and centered
+- backgrounds use translucent light or dark neutrals rather than loud chrome
+- blur is usually subtle and supportive, not theatrical
+- action spacing is tidy and sparse rather than dense
+
 ## 9. Mobile Is Re-Authored, Not Shrunk
 
 Great mobile implementations preserve the same value hierarchy but often change:
@@ -261,6 +275,12 @@ Practical translation:
 - use spacing to separate buyer questions, not just to decorate
 - do not equalize every gap
 - let hero, highlights, and closer-look sections feel physically larger than utility sections
+
+Observed smaller rhythm details worth keeping:
+
+- neighboring proof cards often separate by around `12px`
+- selector or choice cards often stack on around `8px`
+- image caption spacing often sits around `16px` to `20px`
 
 ## 13. Image Followed By Caption
 

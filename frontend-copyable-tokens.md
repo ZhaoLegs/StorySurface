@@ -80,6 +80,12 @@ Weight rules:
 - `400` for most explanatory copy
 - avoid `300`, avoid `800+` in normal UI
 
+Small-copy rules:
+
+- use `17px` for most explanatory copy
+- use `14px~15px` for captions and short support lines
+- use `12px~13px` for labels, nav, and footnotes
+
 Heading restraint:
 
 - use `56px` as the normal large desktop section title
@@ -103,6 +109,8 @@ Rules:
 - use the small scale inside components
 - use the large scale for narrative sections
 - do not equalize every gap across the page
+- neighboring proof cards often separate by about `12px`
+- compact selector stacks often separate by about `8px`
 
 ## Grid Rules
 
@@ -119,16 +127,24 @@ Rules:
 - keep copy calmer and narrower than media
 - mobile is a rewritten composition, not a shrunk desktop
 - full-width section backgrounds can go edge to edge, but the inner content width should stay aligned across the page
+- `980px` is a useful calmer content anchor
+- `1260px` is a useful wider media-stage anchor for galleries and big proof bands
+- desktop inner padding often lands near `22px`, then around `16px` on smaller breakpoints
 
 ## Component Rules
 
 ```text
-Button height: 44
+Primary CTA height: 36
+Circular utility control: 44
 Button text: 17
 Button horizontal padding: 22~28
-Large showcase card radius: 28
-Smaller utility card radius: 14~20
+Light showcase card radius: 28~30
+Dark showcase card radius: 18~20
+Utility selection card radius: 12
 Card padding: 32~48
+Gallery tile width: ~372
+Gallery gap: ~25
+Overlay max width: ~1420
 ```
 
 Rules:
@@ -136,9 +152,11 @@ Rules:
 - use large rounded cards as presentation stages
 - keep full-width bands as the default layout skeleton for computing and lifestyle pages
 - do not stack many equal cards vertically
+- use slide galleries or value tiles when multiple proof moments need to sit together
 - keep shadows restrained
 - if the surrounding section already provides the title, avoid another card headline
 - keep card copy mostly around `17px` to `21px`
+- use captions around `14px~17px` under image-led proof blocks
 
 ## Motion Rules
 

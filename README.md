@@ -154,6 +154,18 @@ Do not use this repository to copy trademarked assets, proprietary copy, or bran
 - [ai-frontend-design-spec.md](ai-frontend-design-spec.md)
 - [ai-frontend-design-prompt-template.md](ai-frontend-design-prompt-template.md)
 - [frontend-copyable-tokens.md](frontend-copyable-tokens.md)
+- [firecrawl-apple-research-workflow.md](firecrawl-apple-research-workflow.md)
+
+## Research Utilities
+
+- [research/apple-folder-findings.md](research/apple-folder-findings.md)
+- [research/apple-sample-urls.txt](research/apple-sample-urls.txt)
+- [scripts/firecrawl_collect.py](scripts/firecrawl_collect.py)
+
+## Reusable Code Assets
+
+- [assets/storysurface-tokens.css](assets/storysurface-tokens.css)
+- [assets/storysurface-primitives.css](assets/storysurface-primitives.css)
 
 ## Supported Setup
 
@@ -162,6 +174,8 @@ StorySurface is currently organized as a local skill repository for Codex-style 
 The methodology can still be reused manually in other AI coding tools, but this repository is currently structured and tested as a Codex-friendly skill set.
 
 Local prototype pages may exist in a private `examples/` directory during development, but they are not part of the published skill surface by default.
+
+Local saved source pages in `apple/` are treated as private research input and are not part of the published repository surface.
 
 ## License
 
