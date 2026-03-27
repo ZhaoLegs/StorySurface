@@ -61,6 +61,8 @@ StorySurface pushes against that bias with:
 
 - [examples/lumen-buds-pro-product-story.md](examples/lumen-buds-pro-product-story.md)
 - [examples/lumen-buds-pro-demo.html](examples/lumen-buds-pro-demo.html)
+- [examples/northlight-air-product-story.md](examples/northlight-air-product-story.md)
+- [examples/northlight-air-demo.html](examples/northlight-air-demo.html)
 
 ## What It Helps You Build
 
@@ -188,8 +190,8 @@ Current status:
 - README: done
 - methodology docs: done
 - example page: done
+- second category example: done
 - license: pending your choice
-- second category example: recommended
 
 ## Suggested Repo Description
 
