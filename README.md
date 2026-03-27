@@ -1,8 +1,8 @@
 # StorySurface
 
-StorySurface is a skill system for designing and improving premium product-story landing pages, launch pages, and showcase frontends.
+StorySurface is a skill system and design methodology for building premium product-story landing pages with AI.
 
-This repository turns design research into reusable AI skills for frontend work. It is built for teams who want AI-generated pages to feel calmer, more intentional, more product-led, and less like generic templates.
+It turns design research into reusable skills, frontend guidance, and implementation patterns for teams who want AI-generated pages to feel calmer, more intentional, more product-led, and less like generic templates.
 
 ## What This Is
 
@@ -43,40 +43,40 @@ Do not use this repository to copy trademarked assets, proprietary copy, or bran
 
 ### Core skills
 
-- [product-story-design/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-design/SKILL.md)
-- [product-story-director/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-director/SKILL.md)
-- [teach-product-story/SKILL.md](/Users/bytedance/Documents/项目/skills/teach-product-story/SKILL.md)
+- [product-story-design/SKILL.md](product-story-design/SKILL.md)
+- [product-story-director/SKILL.md](product-story-director/SKILL.md)
+- [teach-product-story/SKILL.md](teach-product-story/SKILL.md)
 
 ### Page-building and module skills
 
-- [product-story-launch/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-launch/SKILL.md)
-- [product-story-hero/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-hero/SKILL.md)
-- [product-story-highlights/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-highlights/SKILL.md)
-- [product-story-closer-look/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-closer-look/SKILL.md)
+- [product-story-launch/SKILL.md](product-story-launch/SKILL.md)
+- [product-story-hero/SKILL.md](product-story-hero/SKILL.md)
+- [product-story-highlights/SKILL.md](product-story-highlights/SKILL.md)
+- [product-story-closer-look/SKILL.md](product-story-closer-look/SKILL.md)
 
 ### Refinement and review skills
 
-- [product-story-typeset/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-typeset/SKILL.md)
-- [product-story-arrange/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-arrange/SKILL.md)
-- [product-story-polish/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-polish/SKILL.md)
-- [product-story-audit/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-audit/SKILL.md)
+- [product-story-typeset/SKILL.md](product-story-typeset/SKILL.md)
+- [product-story-arrange/SKILL.md](product-story-arrange/SKILL.md)
+- [product-story-polish/SKILL.md](product-story-polish/SKILL.md)
+- [product-story-audit/SKILL.md](product-story-audit/SKILL.md)
 
 ### Design documentation
 
-- [design-methodology.md](/Users/bytedance/Documents/项目/skills/design-methodology.md)
-- [ai-frontend-design-spec.md](/Users/bytedance/Documents/项目/skills/ai-frontend-design-spec.md)
-- [ai-frontend-design-prompt-template.md](/Users/bytedance/Documents/项目/skills/ai-frontend-design-prompt-template.md)
+- [design-methodology.md](design-methodology.md)
+- [ai-frontend-design-spec.md](ai-frontend-design-spec.md)
+- [ai-frontend-design-prompt-template.md](ai-frontend-design-prompt-template.md)
 
 ### Examples
 
-- [examples/lumen-buds-pro-product-story.md](/Users/bytedance/Documents/项目/skills/examples/lumen-buds-pro-product-story.md)
-- [examples/lumen-buds-pro-demo.html](/Users/bytedance/Documents/项目/skills/examples/lumen-buds-pro-demo.html)
+- [examples/lumen-buds-pro-product-story.md](examples/lumen-buds-pro-product-story.md)
+- [examples/lumen-buds-pro-demo.html](examples/lumen-buds-pro-demo.html)
 
 ## How To Use
 
 ### 1. Start with project context
 
-Use [teach-product-story/SKILL.md](/Users/bytedance/Documents/项目/skills/teach-product-story/SKILL.md) to capture:
+Use [teach-product-story/SKILL.md](teach-product-story/SKILL.md) to capture:
 
 - product
 - audience
@@ -88,7 +88,7 @@ This should be saved into `.product-story.md` for reuse.
 
 ### 2. Choose the right route
 
-If you are not sure which skill to use, start with [product-story-director/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-director/SKILL.md).
+If you are not sure which skill to use, start with [product-story-director/SKILL.md](product-story-director/SKILL.md).
 
 It helps route work by:
 
@@ -101,20 +101,20 @@ It helps route work by:
 
 Use:
 
-- [product-story-launch/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-launch/SKILL.md) for full pages
-- [product-story-hero/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-hero/SKILL.md) for first-screen work
-- [product-story-highlights/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-highlights/SKILL.md) for preview rails
-- [product-story-closer-look/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-closer-look/SKILL.md) for object-led sections
+- [product-story-launch/SKILL.md](product-story-launch/SKILL.md) for full pages
+- [product-story-hero/SKILL.md](product-story-hero/SKILL.md) for first-screen work
+- [product-story-highlights/SKILL.md](product-story-highlights/SKILL.md) for preview rails
+- [product-story-closer-look/SKILL.md](product-story-closer-look/SKILL.md) for object-led sections
 
 Then refine with:
 
-- [product-story-typeset/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-typeset/SKILL.md)
-- [product-story-arrange/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-arrange/SKILL.md)
-- [product-story-polish/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-polish/SKILL.md)
+- [product-story-typeset/SKILL.md](product-story-typeset/SKILL.md)
+- [product-story-arrange/SKILL.md](product-story-arrange/SKILL.md)
+- [product-story-polish/SKILL.md](product-story-polish/SKILL.md)
 
 Review with:
 
-- [product-story-audit/SKILL.md](/Users/bytedance/Documents/项目/skills/product-story-audit/SKILL.md)
+- [product-story-audit/SKILL.md](product-story-audit/SKILL.md)
 
 ## Method Summary
 
@@ -151,8 +151,8 @@ Page structure changes by product type and buyer psychology:
 
 If your main goal is to improve AI-generated frontend pages, start here:
 
-- [ai-frontend-design-spec.md](/Users/bytedance/Documents/项目/skills/ai-frontend-design-spec.md)
-- [ai-frontend-design-prompt-template.md](/Users/bytedance/Documents/项目/skills/ai-frontend-design-prompt-template.md)
+- [ai-frontend-design-spec.md](ai-frontend-design-spec.md)
+- [ai-frontend-design-prompt-template.md](ai-frontend-design-prompt-template.md)
 
 These two files are the fastest way to transfer the methodology into prompts and implementation constraints.
 
