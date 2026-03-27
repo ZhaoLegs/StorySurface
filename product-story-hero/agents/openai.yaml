@@ -1,0 +1,8 @@
+interface:
+  display_name: "Product Story Hero"
+  short_description: "Builds iconic premium product hero sections."
+  brand_color: "#111111"
+  default_prompt: "Use $product-story-hero to create a premium product hero section for this product."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Teach Product Story"
+  short_description: "Captures context for premium product-story work."
+  brand_color: "#6E6E73"
+  default_prompt: "Use $teach-product-story to gather and save the design context for this product project."
+
+policy:
+  allow_implicit_invocation: true

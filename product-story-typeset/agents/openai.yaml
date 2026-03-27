@@ -1,0 +1,8 @@
+interface:
+  display_name: "Product Story Typeset"
+  short_description: "Refines typography for premium product pages."
+  brand_color: "#1D1D1F"
+  default_prompt: "Use $product-story-typeset to refine the typography on this premium product page."
+
+policy:
+  allow_implicit_invocation: true

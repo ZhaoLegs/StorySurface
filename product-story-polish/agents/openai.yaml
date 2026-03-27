@@ -1,0 +1,8 @@
+interface:
+  display_name: "Product Story Polish"
+  short_description: "Applies a launch-ready premium finishing pass."
+  brand_color: "#4A4A4F"
+  default_prompt: "Use $product-story-polish to give this product page a final premium finishing pass."
+
+policy:
+  allow_implicit_invocation: true

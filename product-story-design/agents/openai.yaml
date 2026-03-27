@@ -1,0 +1,8 @@
+interface:
+  display_name: "Product Story Design"
+  short_description: "Build premium product-story web experiences."
+  brand_color: "#111111"
+  default_prompt: "Use $product-story-design to design this page as a premium product-story marketing experience."
+
+policy:
+  allow_implicit_invocation: true

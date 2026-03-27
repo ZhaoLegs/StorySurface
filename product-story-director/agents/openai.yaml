@@ -1,0 +1,8 @@
+interface:
+  display_name: "Product Story Director"
+  short_description: "Routes product-story page work to the right skill."
+  brand_color: "#111111"
+  default_prompt: "Use $product-story-director to choose the right skill flow for this premium product page."
+
+policy:
+  allow_implicit_invocation: true

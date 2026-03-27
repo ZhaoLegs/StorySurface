@@ -1,0 +1,8 @@
+interface:
+  display_name: "Product Story Audit"
+  short_description: "Scores whether a page meets a premium standard."
+  brand_color: "#4A4A4F"
+  default_prompt: "Use $product-story-audit to review whether this page really meets a premium product-story quality bar."
+
+policy:
+  allow_implicit_invocation: true

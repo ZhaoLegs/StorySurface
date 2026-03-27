@@ -1,0 +1,8 @@
+interface:
+  display_name: "Product Story Closer Look"
+  short_description: "Builds premium product showcase sections."
+  brand_color: "#2C2C2E"
+  default_prompt: "Use $product-story-closer-look to create a Take a closer look section for this product."
+
+policy:
+  allow_implicit_invocation: true

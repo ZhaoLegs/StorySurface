@@ -1,0 +1,8 @@
+interface:
+  display_name: "Product Story Launch"
+  short_description: "Plans and builds full premium launch pages."
+  brand_color: "#111111"
+  default_prompt: "Use $product-story-launch to build a full premium product-marketing page for this launch."
+
+policy:
+  allow_implicit_invocation: true

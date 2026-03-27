@@ -1,0 +1,8 @@
+interface:
+  display_name: "Product Story Highlights"
+  short_description: "Creates premium highlights summary sections."
+  brand_color: "#3A3A3C"
+  default_prompt: "Use $product-story-highlights to create a Get the highlights section for this product page."
+
+policy:
+  allow_implicit_invocation: true
